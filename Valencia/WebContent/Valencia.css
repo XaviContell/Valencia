@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+h1 {
+	background-color: lightblue;
+	font-size: 100%;
+	font-family: arial;
+	text-align: center;
+	height: 3vw;
+	width: 100vw;
+}
+
+#valencia {
+	text-align: center;
+}
+
+/* :CIUDAD */
+#ciudad {
+	width: 150px;
+	height: 100px;
+}
+#ciudad:hover {
+	opacity: 0.5;
+}
+/* :PUERTO */
+#puerto {
+	width: 150px;
+	height: 100px;
+}
+#puerto:hover {
+	opacity: 0.5;
+}
+
+/* :VIRGEN */
+#virgen {
+	width: 150px;
+	height: 100px;
+}
+#virgen:hover {
+	opacity: 0.5;
+}
+	
+/* :BIOPARC */
+#bioparc {
+	width: 150px;
+	height: 100px;
+}
+#bioparc:hover {
+	opacity: 0.5;
+}
+/* :HISTORIA */
+h2 {
+	font-size: 125%;
+	font-weight: normal;
+	font-family: arial;
+	text-align: center;
+}
+
+#antigua {
+    width: 800px;
+	height: 150px;
+	background-image: url("valencia_antigua.jpg");
+	background-repeat: repeat-x;
+}
+
+p {
+	font-size: 10px;
+	color: blue;
+}
+p:hover {
+	background-image: url("valencia_antigua.jpg");
+	background-color: blue;
+	color: black;
+}
+
+#final {
+	background-color: lightblue;
+	background-size: 100px 100px;
+}
+
+.antigua2 {
+	background-color: lightblue;
+	display:block;
+	margin:auto;
+	width: 225px;
+	height: 175px;
+}
